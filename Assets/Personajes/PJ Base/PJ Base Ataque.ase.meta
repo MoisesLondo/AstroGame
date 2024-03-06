@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6f11771f9e4ca08419ecf83d89f76302
+guid: f35cc71d5baf22342b1a94b80e97535d
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Astronauta Ataque en aire_Frame_0
+  - name: PJ Base Ataque_Frame_0
     originalName: 
-    pivot: {x: 0.6, y: -0.6666667}
+    pivot: {x: 0.53846157, y: -0.7058824}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 32
-      y: 33
-      width: 15
-      height: 18
-    spriteID: 79f20d6fd4e230941be64f0522606927
+      x: 28
+      y: 29
+      width: 13
+      height: 17
+    spriteID: 831bedd25d16f9848bf2180e21ab8743
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -140,19 +140,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 32, y: 33}
-  - name: Astronauta Ataque en aire_Frame_1
+    uvTransform: {x: 28, y: 29}
+  - name: PJ Base Ataque_Frame_1
     originalName: 
-    pivot: {x: 0.45000002, y: -0.42857143}
+    pivot: {x: 0.375, y: -0.7058824}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 20
-      height: 21
-    spriteID: 73b08ae9122ac5b448622533bf98debe
+      width: 16
+      height: 17
+    spriteID: 61ed1629dd14ec04fb0b23eb0c995224
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -161,18 +161,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Astronauta Ataque en aire_Frame_2
+  - name: PJ Base Ataque_Frame_2
     originalName: 
-    pivot: {x: 0.45000002, y: -0.42857143}
+    pivot: {x: 0.375, y: -0.7058824}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 32
+      x: 28
       y: 4
-      width: 20
-      height: 21
-    spriteID: b85d4179fc5c9b24b982c64f6724d07a
+      width: 16
+      height: 17
+    spriteID: 165d9332162978e4f98a18f47bd8f0af
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -180,19 +180,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 32, y: 4}
-  - name: Astronauta Ataque en aire_Frame_3
+    uvTransform: {x: 28, y: 4}
+  - name: PJ Base Ataque_Frame_3
     originalName: 
-    pivot: {x: 0.45000002, y: -0.42857143}
+    pivot: {x: 0.375, y: -0.7058824}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 33
-      width: 20
-      height: 21
-    spriteID: 2070b5de23acd974b999d3f55cb3b984
+      y: 29
+      width: 16
+      height: 17
+    spriteID: 88407621790d6ab4bb7808acc77c699d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -200,48 +200,48 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 33}
+    uvTransform: {x: 4, y: 29}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -488061379
-    name: Astronauta Ataque en aire
+    guid: 1188234738
+    name: PJ Base Ataque
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Astronauta Ataque en aire_Frame_0
+    - name: PJ Base Ataque_Frame_0
       frameIndex: 0
       cellRect:
-        x: 7
+        x: 9
         y: 12
-        width: 15
-        height: 18
-      spriteId: 79f20d6fd4e230941be64f0522606927
-    - name: Astronauta Ataque en aire_Frame_1
+        width: 13
+        height: 17
+      spriteId: 831bedd25d16f9848bf2180e21ab8743
+    - name: PJ Base Ataque_Frame_1
       frameIndex: 1
       cellRect:
-        x: 7
-        y: 9
-        width: 20
-        height: 21
-      spriteId: 73b08ae9122ac5b448622533bf98debe
-    - name: Astronauta Ataque en aire_Frame_2
+        x: 10
+        y: 12
+        width: 16
+        height: 17
+      spriteId: 61ed1629dd14ec04fb0b23eb0c995224
+    - name: PJ Base Ataque_Frame_2
       frameIndex: 2
       cellRect:
-        x: 7
-        y: 9
-        width: 20
-        height: 21
-      spriteId: b85d4179fc5c9b24b982c64f6724d07a
-    - name: Astronauta Ataque en aire_Frame_3
+        x: 10
+        y: 12
+        width: 16
+        height: 17
+      spriteId: 165d9332162978e4f98a18f47bd8f0af
+    - name: PJ Base Ataque_Frame_3
       frameIndex: 3
       cellRect:
-        x: 7
-        y: 9
-        width: 20
-        height: 21
-      spriteId: 2070b5de23acd974b999d3f55cb3b984
+        x: 10
+        y: 12
+        width: 16
+        height: 17
+      spriteId: 88407621790d6ab4bb7808acc77c699d
     linkedCells: []
     parentIndex: -1
   platformSettings: []
