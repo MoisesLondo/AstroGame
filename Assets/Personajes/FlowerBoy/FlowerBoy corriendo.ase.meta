@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6f11771f9e4ca08419ecf83d89f76302
+guid: 5822d50f52ee45145bb1730d598428be
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -121,38 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Astronauta Ataque en aire_Frame_0
+  - name: FlowerBoy corriendo_Frame_0
     originalName: 
-    pivot: {x: 0.6, y: -0.6666667}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 32
-      y: 33
-      width: 15
-      height: 18
-    spriteID: 79f20d6fd4e230941be64f0522606927
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 32, y: 33}
-  - name: Astronauta Ataque en aire_Frame_1
-    originalName: 
-    pivot: {x: 0.45000002, y: -0.42857143}
+    pivot: {x: 0.36842105, y: -0.47619048}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 20
+      width: 19
       height: 21
-    spriteID: 73b08ae9122ac5b448622533bf98debe
+    spriteID: 698162ea2e1e6424fa6ae1c40b2950d1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -161,38 +141,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Astronauta Ataque en aire_Frame_2
+  - name: FlowerBoy corriendo_Frame_1
     originalName: 
-    pivot: {x: 0.45000002, y: -0.42857143}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 32
-      y: 4
-      width: 20
-      height: 21
-    spriteID: b85d4179fc5c9b24b982c64f6724d07a
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 32, y: 4}
-  - name: Astronauta Ataque en aire_Frame_3
-    originalName: 
-    pivot: {x: 0.45000002, y: -0.42857143}
+    pivot: {x: 0.36842105, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 33
-      width: 20
-      height: 21
-    spriteID: 2070b5de23acd974b999d3f55cb3b984
+      width: 19
+      height: 20
+    spriteID: d2fd0edb65290124da9f8c08649672bc
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -201,47 +161,87 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 33}
+  - name: FlowerBoy corriendo_Frame_2
+    originalName: 
+    pivot: {x: 0.36842105, y: -0.47619048}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 31
+      y: 4
+      width: 19
+      height: 21
+    spriteID: 76d4228f8798a394a9ab4178270fe60d
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 31, y: 4}
+  - name: FlowerBoy corriendo_Frame_3
+    originalName: 
+    pivot: {x: 0.36842105, y: -0.5}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 31
+      y: 33
+      width: 19
+      height: 20
+    spriteID: 11f3158c26c6906449b1394b5dbcdaf6
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 31, y: 33}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -488061379
-    name: Astronauta Ataque en aire
+    guid: 1909044750
+    name: FlowerBoy corriendo
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Astronauta Ataque en aire_Frame_0
+    - name: FlowerBoy corriendo_Frame_0
       frameIndex: 0
       cellRect:
-        x: 7
-        y: 12
-        width: 15
-        height: 18
-      spriteId: 79f20d6fd4e230941be64f0522606927
-    - name: Astronauta Ataque en aire_Frame_1
+        x: 9
+        y: 10
+        width: 19
+        height: 21
+      spriteId: 698162ea2e1e6424fa6ae1c40b2950d1
+    - name: FlowerBoy corriendo_Frame_1
       frameIndex: 1
       cellRect:
-        x: 7
-        y: 9
-        width: 20
-        height: 21
-      spriteId: 73b08ae9122ac5b448622533bf98debe
-    - name: Astronauta Ataque en aire_Frame_2
+        x: 9
+        y: 10
+        width: 19
+        height: 20
+      spriteId: d2fd0edb65290124da9f8c08649672bc
+    - name: FlowerBoy corriendo_Frame_2
       frameIndex: 2
       cellRect:
-        x: 7
-        y: 9
-        width: 20
+        x: 9
+        y: 10
+        width: 19
         height: 21
-      spriteId: b85d4179fc5c9b24b982c64f6724d07a
-    - name: Astronauta Ataque en aire_Frame_3
+      spriteId: 76d4228f8798a394a9ab4178270fe60d
+    - name: FlowerBoy corriendo_Frame_3
       frameIndex: 3
       cellRect:
-        x: 7
-        y: 9
-        width: 20
-        height: 21
-      spriteId: 2070b5de23acd974b999d3f55cb3b984
+        x: 9
+        y: 10
+        width: 19
+        height: 20
+      spriteId: 11f3158c26c6906449b1394b5dbcdaf6
     linkedCells: []
     parentIndex: -1
   platformSettings: []
