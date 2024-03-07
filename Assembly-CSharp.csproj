@@ -64,7 +64,12 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ControlPJ.cs" />
-    <Compile Include="Assets\Scripts\Movement.cs" />
+    <Compile Include="Assets\Patrullaje.cs" />
+    <Compile Include="Assets\Enemigo.cs" />
+    <Compile Include="Assets\Scripts\MovimientoPlataforma.cs" />
+    <Compile Include="Assets\Scripts\iDaño.cs" />
+    <Compile Include="Assets\Scripts\combate.cs" />
+    <Compile Include="Assets\Combate.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Tilesets\Free Park Zone Tileset\license.txt" />
