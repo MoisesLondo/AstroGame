@@ -70,6 +70,8 @@
     <Compile Include="Assets\Scripts\iDaño.cs" />
     <Compile Include="Assets\Scripts\combate.cs" />
     <Compile Include="Assets\Combate.cs" />
+    <Compile Include="Assets\SlimeDaño.cs" />
+    <Compile Include="Assets\VidaPJ.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Tilesets\Free Park Zone Tileset\license.txt" />

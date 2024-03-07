@@ -8,6 +8,10 @@ public class Combate : MonoBehaviour
     [SerializeField] private float radioGolpe;
     [SerializeField] private float dañoGolpe;
 
+    [SerializeField] private float tiempoAtaques;
+
+    [SerializeField] private float tiempoNewAtaque;
+
     private Animator animator;
     
     // Start is called before the first frame update
@@ -19,9 +23,14 @@ public class Combate : MonoBehaviour
     // Update is called once per frame
     void Update()
     {   
-        if(Input.GetButtonDown("Fire1")){
+        if(tiempoNewAtaque > 0){
+
+            tiempoNewAtaque -= Time.deltaTime;
+        }
+        if(Input.GetButtonDown("Fire1") && tiempoNewAtaque <=0){
 
             Golpe();
+            tiempoNewAtaque = tiempoAtaques;
         }
         
     }
