@@ -101,9 +101,7 @@ public class ControlPJ : MonoBehaviour
     private void Girar()
     {
         derecha = !derecha;
-        Vector3 escala = transform.localScale;
-        escala.x *= -1;
-        transform.localScale = escala;
+        transform.eulerAngles = new Vector3(0, transform.eulerAngles.y + 180, 0);
     }
 
     private void OnDrawGizmos(){

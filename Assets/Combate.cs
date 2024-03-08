@@ -49,4 +49,10 @@ public class Combate : MonoBehaviour
 
         }
     }
+
+    private void OnDrawGizmos(){
+
+        Gizmos.color = Color.red;
+        Gizmos.DrawWireSphere(controladorGolpe.position, radioGolpe);
+    }
 }
