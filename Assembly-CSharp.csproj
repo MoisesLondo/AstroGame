@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ControlPJ.cs" />
+    <Compile Include="Assets\Bala.cs" />
     <Compile Include="Assets\Patrullaje.cs" />
     <Compile Include="Assets\Enemigo.cs" />
     <Compile Include="Assets\Scripts\MovimientoPlataforma.cs" />
@@ -72,6 +73,8 @@
     <Compile Include="Assets\Combate.cs" />
     <Compile Include="Assets\SlimeDaño.cs" />
     <Compile Include="Assets\VidaPJ.cs" />
+    <Compile Include="Assets\DisparoJugador.cs" />
+    <Compile Include="Assets\TiempoVida.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Tilesets\Free Park Zone Tileset\license.txt" />
