@@ -42,9 +42,10 @@ public class Combate : MonoBehaviour
 
         foreach(Collider2D colisionador in objetos){
 
-            if(colisionador.CompareTag("Enemigo")){
+            iDaño objeto = colisionador.GetComponent<iDaño>();
+            if(objeto != null){
 
-                colisionador.transform.GetComponent<Enemigo>().TomarDaño(dañoGolpe);
+                objeto.TomarDaño(dañoGolpe);
             }
 
         }

@@ -74,9 +74,12 @@
     <Compile Include="Assets\SlimeDaño.cs" />
     <Compile Include="Assets\VidaPJ.cs" />
     <Compile Include="Assets\DisparoJugador.cs" />
+    <Compile Include="Assets\Murcielago.cs" />
+    <Compile Include="Assets\PatrullarAereo.cs" />
     <Compile Include="Assets\TiempoVida.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\message.txt" />
     <None Include="Assets\Tilesets\Free Park Zone Tileset\license.txt" />
     <None Include="Assets\Tilesets\Free Park Zone Tileset\Font.txt" />
     <None Include="Assets\Tilesets\Sci-Fi\Sci-Fi\Contact.txt" />

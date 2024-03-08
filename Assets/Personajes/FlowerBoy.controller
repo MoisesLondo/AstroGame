@@ -47,7 +47,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 948d54b73e0773d4284c07fba5397068, type: 2}
+  m_Motion: {fileID: 7400000, guid: c13c7bee84fc34643936511d0f8ec7ea, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -125,7 +125,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 6891731058020733293, guid: be3ff6e8c8dfb40489607edaf7daf78c, type: 3}
+  m_Motion: {fileID: -6996118034819646923, guid: 792c4323df4e7494abc10204d9c2c718, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -177,7 +177,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: -5562840925834791733, guid: a4234339ba9486940b5e9c184b60fb47, type: 3}
+  m_Motion: {fileID: -2315657685636711228, guid: 77ed655faf2ff994a98f8e3f0cdcec90, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -244,6 +244,12 @@ AnimatorStateMachine:
   - serializedVersion: 1
     m_State: {fileID: -7593511687402741858}
     m_Position: {x: 680, y: -270, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 4457585103386431572}
+    m_Position: {x: 715, y: -205, z: 0}
+  - serializedVersion: 1
+    m_State: {fileID: 5095663351935024286}
+    m_Position: {x: 750, y: -140, z: 0}
   m_ChildStateMachines: []
   m_AnyStateTransitions:
   - {fileID: -1957624182394628146}
@@ -340,7 +346,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: jugador
+  m_Name: FlowerBoy
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: isRunning
@@ -435,7 +441,59 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 6345816921181300714, guid: f35cc71d5baf22342b1a94b80e97535d, type: 3}
+  m_Motion: {fileID: -1738161426042589274, guid: 86c7a1cc0a1922f4f828834f5d17da15, type: 3}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &4457585103386431572
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Muerte FlowerBoy
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: c13c7bee84fc34643936511d0f8ec7ea, type: 2}
+  m_Tag: 
+  m_SpeedParameter: 
+  m_MirrorParameter: 
+  m_CycleOffsetParameter: 
+  m_TimeParameter: 
+--- !u!1102 &5095663351935024286
+AnimatorState:
+  serializedVersion: 6
+  m_ObjectHideFlags: 1
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: Muerte Ben
+  m_Speed: 1
+  m_CycleOffset: 0
+  m_Transitions: []
+  m_StateMachineBehaviours: []
+  m_Position: {x: 50, y: 50, z: 0}
+  m_IKOnFeet: 0
+  m_WriteDefaultValues: 1
+  m_Mirror: 0
+  m_SpeedParameterActive: 0
+  m_MirrorParameterActive: 0
+  m_CycleOffsetParameterActive: 0
+  m_TimeParameterActive: 0
+  m_Motion: {fileID: 7400000, guid: c413ef85e2692cc4995501d7e46d1721, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -512,7 +570,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 5115014823163271844, guid: b6e74febf0da65e4fb5780cbaa877b56, type: 3}
+  m_Motion: {fileID: 405450279224933163, guid: 507dee120a37dea41ba9323b0230fccd, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
@@ -565,7 +623,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 8214454767779665937, guid: 49288e811bb327f4282f3f4654b27c6b, type: 3}
+  m_Motion: {fileID: -5469404167531257451, guid: 5822d50f52ee45145bb1730d598428be, type: 3}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 

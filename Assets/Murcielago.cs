@@ -1,8 +1,8 @@
- using System.Collections;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Enemigo : MonoBehaviour, iDaño
+public class Murcielago : MonoBehaviour, iDaño
 {
 
     [SerializeField] private float vida;
