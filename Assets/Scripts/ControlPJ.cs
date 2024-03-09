@@ -11,6 +11,8 @@ public class ControlPJ : MonoBehaviour
     private Vector3 velocidad = Vector3.zero;
     private bool derecha = true;
 
+    public bool sePuedeMover = true;
+    [SerializeField] private Vector2 velocidadRebote;
 
     [SerializeField] private float fuerzaSalto;
 
@@ -53,11 +55,17 @@ public class ControlPJ : MonoBehaviour
 
     private void FixedUpdate()
     {
-        Mover(movHorizontal * Time.fixedDeltaTime, salto);
+        
 
         enSuelo = Physics2D.OverlapBox(controladorSuelo.position, dimCaja, 0f, queEsSuelo);
 
         animator.SetBool("enSuelo",enSuelo);
+
+        if(sePuedeMover){
+            Mover(movHorizontal * Time.fixedDeltaTime, salto);
+        }
+
+
 
         salto = false;
     }
@@ -84,13 +92,16 @@ public class ControlPJ : MonoBehaviour
 
         }
     }
+    public void Rebote(Vector2 puntoGolpe){
 
+        rb2D.velocity = new Vector2(-velocidadRebote.x * puntoGolpe.x, velocidadRebote.y);
+
+
+    }
     private void Girar()
     {
         derecha = !derecha;
-        Vector3 escala = transform.localScale;
-        escala.x *= -1;
-        transform.localScale = escala;
+        transform.eulerAngles = new Vector3(0, transform.eulerAngles.y + 180, 0);
     }
 
     private void OnDrawGizmos(){
