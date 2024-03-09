@@ -77,6 +77,7 @@
     <Compile Include="Assets\Murcielago.cs" />
     <Compile Include="Assets\PatrullarAereo.cs" />
     <Compile Include="Assets\TiempoVida.cs" />
+    <Compile Include="Assets\Compañero.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\message.txt" />

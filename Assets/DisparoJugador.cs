@@ -6,22 +6,19 @@ public class DisparoJugador : MonoBehaviour
 {
     [SerializeField] private Transform controladorDisparo;
     [SerializeField] private GameObject bala;
-    
+    [SerializeField] private float tiempoEntreDisparos;
 
-    private bool disparando = false;
+    private float tiempoSiguienteDisparo;
 
 private void Update()
 {
-    if (Input.GetButtonDown("Fire2") && !disparando)
+    if (Input.GetButtonDown("Fire2") && Time.time >= tiempoSiguienteDisparo)
     {
         Disparar();
-        disparando = true;
+        tiempoSiguienteDisparo = Time.time + tiempoEntreDisparos;
     }
 
-    if (Input.GetButtonUp("Fire2"))
-    {
-        disparando = false;
-    }
+
 }
     private void Disparar(){
 
