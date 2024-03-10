@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6f11771f9e4ca08419ecf83d89f76302
+guid: a4e8fa3fc63a0ca4c811aa57068bc349
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638455135143052478
+  platformSettingsDirtyTick: 638456644600386810
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,18 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Astronauta Ataque en aire_Frame_0
+  - name: Astronauta CorriendoAtaque_Frame_0
     originalName: 
-    pivot: {x: 0.6, y: -0.6666667}
+    pivot: {x: 0.39130434, y: -0.7058824}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 32
-      y: 33
-      width: 15
-      height: 18
-    spriteID: 79f20d6fd4e230941be64f0522606927
+      x: 4
+      y: 107
+      width: 23
+      height: 17
+    spriteID: a41203ec51c88da4ea3e9e11285f340d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -140,19 +140,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 32, y: 33}
-  - name: Astronauta Ataque en aire_Frame_1
+    uvTransform: {x: 4, y: 107}
+  - name: Astronauta CorriendoAtaque_Frame_1
     originalName: 
-    pivot: {x: 0.45000002, y: -0.42857143}
+    pivot: {x: 0.375, y: -0.6666667}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 20
-      height: 21
-    spriteID: 73b08ae9122ac5b448622533bf98debe
+      width: 24
+      height: 18
+    spriteID: af03f4a6bd3e12b4f8481af63f33508d
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -161,38 +161,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Astronauta Ataque en aire_Frame_2
+  - name: Astronauta CorriendoAtaque_Frame_2
     originalName: 
-    pivot: {x: 0.45000002, y: -0.42857143}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 32
-      y: 4
-      width: 20
-      height: 21
-    spriteID: b85d4179fc5c9b24b982c64f6724d07a
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 32, y: 4}
-  - name: Astronauta Ataque en aire_Frame_3
-    originalName: 
-    pivot: {x: 0.45000002, y: -0.42857143}
+    pivot: {x: 0.375, y: -0.6666667}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 33
-      width: 20
-      height: 21
-    spriteID: 2070b5de23acd974b999d3f55cb3b984
+      y: 30
+      width: 24
+      height: 18
+    spriteID: 686f69e01ce650b4da5106793246a2b5
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -200,48 +180,96 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 33}
+    uvTransform: {x: 4, y: 30}
+  - name: Astronauta CorriendoAtaque_Frame_3
+    originalName: 
+    pivot: {x: 0.375, y: -0.7058824}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 82
+      width: 24
+      height: 17
+    spriteID: e6f81a171685dd848abcaf63debcef04
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 82}
+  - name: Astronauta CorriendoAtaque_Frame_4
+    originalName: 
+    pivot: {x: 0.375, y: -0.6666667}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 56
+      width: 24
+      height: 18
+    spriteID: ceaf41b0eb442104c9294ec14c7675cf
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 56}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -488061379
-    name: Astronauta Ataque en aire
+    guid: 1484269710
+    name: Astronauta CorriendoAtaque
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Astronauta Ataque en aire_Frame_0
+    - name: Astronauta CorriendoAtaque_Frame_0
       frameIndex: 0
       cellRect:
         x: 7
         y: 12
-        width: 15
-        height: 18
-      spriteId: 79f20d6fd4e230941be64f0522606927
-    - name: Astronauta Ataque en aire_Frame_1
+        width: 23
+        height: 17
+      spriteId: a41203ec51c88da4ea3e9e11285f340d
+    - name: Astronauta CorriendoAtaque_Frame_1
       frameIndex: 1
       cellRect:
         x: 7
-        y: 9
-        width: 20
-        height: 21
-      spriteId: 73b08ae9122ac5b448622533bf98debe
-    - name: Astronauta Ataque en aire_Frame_2
+        y: 12
+        width: 24
+        height: 18
+      spriteId: af03f4a6bd3e12b4f8481af63f33508d
+    - name: Astronauta CorriendoAtaque_Frame_2
       frameIndex: 2
       cellRect:
         x: 7
-        y: 9
-        width: 20
-        height: 21
-      spriteId: b85d4179fc5c9b24b982c64f6724d07a
-    - name: Astronauta Ataque en aire_Frame_3
+        y: 12
+        width: 24
+        height: 18
+      spriteId: 686f69e01ce650b4da5106793246a2b5
+    - name: Astronauta CorriendoAtaque_Frame_3
       frameIndex: 3
       cellRect:
         x: 7
-        y: 9
-        width: 20
-        height: 21
-      spriteId: 2070b5de23acd974b999d3f55cb3b984
+        y: 12
+        width: 24
+        height: 17
+      spriteId: e6f81a171685dd848abcaf63debcef04
+    - name: Astronauta CorriendoAtaque_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 7
+        y: 12
+        width: 24
+        height: 18
+      spriteId: ceaf41b0eb442104c9294ec14c7675cf
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -258,18 +286,6 @@ ScriptedImporter:
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
   - name: Standalone
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: WebGL
     overridden: 0
     ignorePlatformSupport: 0
     maxTextureSize: 2048
