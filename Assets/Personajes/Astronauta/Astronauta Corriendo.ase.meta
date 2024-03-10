@@ -129,7 +129,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 34
+      y: 29
       width: 15
       height: 18
     spriteID: db89c1f7a44a78c40b65c575d3b82a34
@@ -140,7 +140,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 34}
+    uvTransform: {x: 4, y: 29}
   - name: Astronauta Corriendo_Frame_1
     originalName: 
     pivot: {x: 0.5625, y: -0.7058824}
@@ -148,7 +148,7 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 27
+      x: 4
       y: 4
       width: 16
       height: 17
@@ -160,18 +160,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 27, y: 4}
+    uvTransform: {x: 4, y: 4}
   - name: Astronauta Corriendo_Frame_2
     originalName: 
-    pivot: {x: 0.6, y: -0.36363637}
+    pivot: {x: 0.6, y: -0.6666667}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 4
+      x: 27
+      y: 29
       width: 15
-      height: 22
+      height: 18
     spriteID: 66c36326fd8ec234b93664f65de17616
     spriteBone: []
     spriteOutline: []
@@ -180,7 +180,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
+    uvTransform: {x: 27, y: 29}
   - name: Astronauta Corriendo_Frame_3
     originalName: 
     pivot: {x: 0.6, y: -0.7058824}
@@ -188,8 +188,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 27
-      y: 29
+      x: 28
+      y: 4
       width: 15
       height: 17
     spriteID: 92eedc7e325c9d845a66f770beafc896
@@ -200,7 +200,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 27, y: 29}
+    uvTransform: {x: 28, y: 4}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -230,9 +230,9 @@ ScriptedImporter:
       frameIndex: 2
       cellRect:
         x: 7
-        y: 8
+        y: 12
         width: 15
-        height: 22
+        height: 18
       spriteId: 66c36326fd8ec234b93664f65de17616
     - name: Astronauta Corriendo_Frame_3
       frameIndex: 3
