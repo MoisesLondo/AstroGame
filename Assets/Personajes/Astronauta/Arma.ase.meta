@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 2f32bade6a646754c89317a933f49dc8
+guid: 02559f5291580704f9ffc3a5c6c37039
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638455135106229198
+  platformSettingsDirtyTick: 638455829249737730
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,58 +121,18 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Astronauta Ataque_Frame_0
+  - name: Arma
     originalName: 
-    pivot: {x: 0.6, y: -0.6666667}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 36
-      y: 30
-      width: 15
-      height: 18
-    spriteID: bf9c2a64390bf6244b425a01b936264d
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 36, y: 30}
-  - name: Astronauta Ataque_Frame_1
-    originalName: 
-    pivot: {x: 0.40909094, y: -0.6666667}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 36
-      y: 4
-      width: 22
-      height: 18
-    spriteID: 373e31a5b1bebbe4eb1ec8e7d8ce1672
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 36, y: 4}
-  - name: Astronauta Ataque_Frame_2
-    originalName: 
-    pivot: {x: 0.375, y: -0.6666667}
+    pivot: {x: 0.5714286, y: -1.2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
       y: 4
-      width: 24
-      height: 18
-    spriteID: acf94dcff60ca484ab9071b8f289bae1
+      width: 14
+      height: 10
+    spriteID: 99fabaa67af321a4ea0ef54e9dea7cee
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -181,18 +141,18 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Astronauta Ataque_Frame_3
+  - name: Arma_Frame_1
     originalName: 
-    pivot: {x: 0.375, y: -0.6666667}
+    pivot: {x: 0.45454547, y: -1.2}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 30
-      width: 24
-      height: 18
-    spriteID: 13fb2f95aa570384c841c21a1aea174b
+      x: 26
+      y: 4
+      width: 11
+      height: 10
+    spriteID: 43fc159c2dccdb34b8bbc4768384ce6b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -200,19 +160,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 30}
-  - name: Astronauta Ataque_Frame_4
+    uvTransform: {x: 26, y: 4}
+  - name: Arma_Frame_2
     originalName: 
-    pivot: {x: 0.375, y: -0.6666667}
+    pivot: {x: 0.5, y: -1.3333334}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 56
-      width: 24
-      height: 18
-    spriteID: d1fda412617b8624094ad306e127cb3c
+      x: 45
+      y: 4
+      width: 12
+      height: 9
+    spriteID: 0b33b143a42357d47a77c3aeb0d957a1
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -220,19 +180,19 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 56}
-  - name: Astronauta Ataque_Frame_5
+    uvTransform: {x: 45, y: 4}
+  - name: Arma_Frame_3
     originalName: 
-    pivot: {x: 0.375, y: -0.6666667}
+    pivot: {x: 0.5, y: -1.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 4
-      y: 82
-      width: 24
-      height: 18
-    spriteID: 4f5d3b94ddfa44d4da597cac6623c6fa
+      y: 22
+      width: 12
+      height: 8
+    spriteID: b054344fef9566b448a894345bc5ff42
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -240,64 +200,48 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 82}
+    uvTransform: {x: 4, y: 22}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: -857746803
-    name: Astronauta Ataque
+    guid: 935968907
+    name: Arma
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Astronauta Ataque_Frame_0
+    - name: Arma_Frame_0
       frameIndex: 0
       cellRect:
-        x: 7
+        x: 8
         y: 12
-        width: 15
-        height: 18
-      spriteId: bf9c2a64390bf6244b425a01b936264d
-    - name: Astronauta Ataque_Frame_1
+        width: 14
+        height: 10
+      spriteId: 99fabaa67af321a4ea0ef54e9dea7cee
+    - name: Arma_Frame_1
       frameIndex: 1
       cellRect:
-        x: 7
+        x: 11
         y: 12
-        width: 22
-        height: 18
-      spriteId: 373e31a5b1bebbe4eb1ec8e7d8ce1672
-    - name: Astronauta Ataque_Frame_2
+        width: 11
+        height: 10
+      spriteId: 43fc159c2dccdb34b8bbc4768384ce6b
+    - name: Arma_Frame_2
       frameIndex: 2
       cellRect:
-        x: 7
+        x: 10
         y: 12
-        width: 24
-        height: 18
-      spriteId: acf94dcff60ca484ab9071b8f289bae1
-    - name: Astronauta Ataque_Frame_3
+        width: 12
+        height: 9
+      spriteId: 0b33b143a42357d47a77c3aeb0d957a1
+    - name: Arma_Frame_3
       frameIndex: 3
       cellRect:
-        x: 7
+        x: 10
         y: 12
-        width: 24
-        height: 18
-      spriteId: 13fb2f95aa570384c841c21a1aea174b
-    - name: Astronauta Ataque_Frame_4
-      frameIndex: 4
-      cellRect:
-        x: 7
-        y: 12
-        width: 24
-        height: 18
-      spriteId: d1fda412617b8624094ad306e127cb3c
-    - name: Astronauta Ataque_Frame_5
-      frameIndex: 5
-      cellRect:
-        x: 7
-        y: 12
-        width: 24
-        height: 18
-      spriteId: 4f5d3b94ddfa44d4da597cac6623c6fa
+        width: 12
+        height: 8
+      spriteId: b054344fef9566b448a894345bc5ff42
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -314,18 +258,6 @@ ScriptedImporter:
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
   - name: Standalone
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: WebGL
     overridden: 0
     ignorePlatformSupport: 0
     maxTextureSize: 2048
