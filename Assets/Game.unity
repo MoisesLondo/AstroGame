@@ -146,7 +146,7 @@ PrefabInstance:
     - target: {fileID: 1160356261127867848, guid: b6e74febf0da65e4fb5780cbaa877b56, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: 61c4bd72c70467c42abfd32bdc8aa65b, type: 2}
+      objectReference: {fileID: 9100000, guid: af59646252d3272459a47069f96a2ad1, type: 2}
     - target: {fileID: 3626916397498700004, guid: b6e74febf0da65e4fb5780cbaa877b56, type: 3}
       propertyPath: m_Size.y
       value: 0.53125
@@ -1844,10 +1844,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   velocidadMov: 200
-  suavizadoMov: 0.3
+  suavizadoMov: 0.25
   sePuedeMover: 1
   velocidadRebote: {x: 2, y: 2}
-  fuerzaSalto: 250
+  fuerzaSalto: 350
   queEsSuelo:
     serializedVersion: 2
     m_Bits: 8
