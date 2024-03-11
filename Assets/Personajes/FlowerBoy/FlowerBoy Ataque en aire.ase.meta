@@ -129,7 +129,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 4
-      y: 4
+      y: 34
       width: 20
       height: 21
     spriteID: 3c016f121ccf9b04aa2669739a4c9f7f
@@ -140,7 +140,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 4}
+    uvTransform: {x: 4, y: 34}
   - name: FlowerBoy Ataque en aire_Frame_1
     originalName: 
     pivot: {x: 0.36842105, y: -0.47619048}
@@ -149,7 +149,7 @@ ScriptedImporter:
     rect:
       serializedVersion: 2
       x: 32
-      y: 4
+      y: 34
       width: 19
       height: 21
     spriteID: 8e9de66b3818fc54c8f93f5c35ba78ad
@@ -160,7 +160,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 32, y: 4}
+    uvTransform: {x: 32, y: 34}
   - name: FlowerBoy Ataque en aire_Frame_2
     originalName: 
     pivot: {x: 0.36842105, y: -0.47619048}
@@ -168,8 +168,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
-      y: 33
+      x: 32
+      y: 63
       width: 19
       height: 21
     spriteID: e37423fd88fd88e4d8ce3bb2dcfc4a7c
@@ -180,7 +180,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 33}
+    uvTransform: {x: 32, y: 63}
   - name: FlowerBoy Ataque en aire_Frame_3
     originalName: 
     pivot: {x: 0.36842105, y: -0.47619048}
@@ -188,8 +188,8 @@ ScriptedImporter:
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 31
-      y: 33
+      x: 32
+      y: 92
       width: 19
       height: 21
     spriteID: 7c1f14a8479702a46bf756bf1cd9a06a
@@ -200,7 +200,87 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 31, y: 33}
+    uvTransform: {x: 32, y: 92}
+  - name: FlowerBoy Ataque en aire_Frame_4
+    originalName: 
+    pivot: {x: 0.4, y: -0.40909094}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 4
+      width: 20
+      height: 22
+    spriteID: 4b763726f602e6343b39f2b241723937
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 4}
+  - name: FlowerBoy Ataque en aire_Frame_5
+    originalName: 
+    pivot: {x: 0.36842105, y: -0.40909094}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 63
+      width: 19
+      height: 22
+    spriteID: 1061a30729876154daf79bd1a2ff65f8
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 63}
+  - name: FlowerBoy Ataque en aire_Frame_6
+    originalName: 
+    pivot: {x: 0.36842105, y: -0.40909094}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 4
+      y: 93
+      width: 19
+      height: 22
+    spriteID: f3bcc2bcfb000af4e9b505bee04b6dbd
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 4, y: 93}
+  - name: FlowerBoy Ataque en aire_Frame_7
+    originalName: 
+    pivot: {x: 0.36842105, y: -0.40909094}
+    alignment: 9
+    border: {x: 0, y: 0, z: 0, w: 0}
+    rect:
+      serializedVersion: 2
+      x: 32
+      y: 4
+      width: 19
+      height: 22
+    spriteID: 40bd21654627fa4478dbe054d1c31515
+    spriteBone: []
+    spriteOutline: []
+    vertices: []
+    spritePhysicsOutline: []
+    indices: 
+    edges: []
+    tessellationDetail: 0
+    uvTransform: {x: 32, y: 4}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -242,6 +322,38 @@ ScriptedImporter:
         width: 19
         height: 21
       spriteId: 7c1f14a8479702a46bf756bf1cd9a06a
+    - name: FlowerBoy Ataque en aire_Frame_4
+      frameIndex: 4
+      cellRect:
+        x: 8
+        y: 9
+        width: 20
+        height: 22
+      spriteId: 4b763726f602e6343b39f2b241723937
+    - name: FlowerBoy Ataque en aire_Frame_5
+      frameIndex: 5
+      cellRect:
+        x: 9
+        y: 9
+        width: 19
+        height: 22
+      spriteId: 1061a30729876154daf79bd1a2ff65f8
+    - name: FlowerBoy Ataque en aire_Frame_6
+      frameIndex: 6
+      cellRect:
+        x: 9
+        y: 9
+        width: 19
+        height: 22
+      spriteId: f3bcc2bcfb000af4e9b505bee04b6dbd
+    - name: FlowerBoy Ataque en aire_Frame_7
+      frameIndex: 7
+      cellRect:
+        x: 9
+        y: 9
+        width: 19
+        height: 22
+      spriteId: 40bd21654627fa4478dbe054d1c31515
     linkedCells: []
     parentIndex: -1
   platformSettings:

@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 6233f3268e419e347928359a1caa20e9
+guid: b6fe4fc83ee47c34cbdb5f9bc7291ba9
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -97,7 +97,7 @@ ScriptedImporter:
     addSortingGroup: 1
     addShadowCasters: 0
   importFileNodeState: 1
-  platformSettingsDirtyTick: 638455131777735221
+  platformSettingsDirtyTick: 638457047223125176
   textureAssetName: 
   singleSpriteImportData:
   - name: 
@@ -121,29 +121,9 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: Ben 10 Ataque en aire_Frame_0
+  - name: FlowerBoy corriendo Ataque_Frame_0
     originalName: 
-    pivot: {x: 0.5, y: -0.52380955}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 32
-      y: 62
-      width: 16
-      height: 21
-    spriteID: b023106c9088b7c4db125ea8740ae961
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 32, y: 62}
-  - name: Ben 10 Ataque en aire_Frame_1
-    originalName: 
-    pivot: {x: 0.4, y: -0.52380955}
+    pivot: {x: 0.4, y: -0.47619048}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -152,7 +132,7 @@ ScriptedImporter:
       y: 4
       width: 20
       height: 21
-    spriteID: dabe90e917159e24babb4330f2d701d3
+    spriteID: 4cc12a958e754db4bbcd1d2a292f4418
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -161,9 +141,9 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 4}
-  - name: Ben 10 Ataque en aire_Frame_2
+  - name: FlowerBoy corriendo Ataque_Frame_1
     originalName: 
-    pivot: {x: 0.4, y: -0.52380955}
+    pivot: {x: 0.35, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -171,8 +151,8 @@ ScriptedImporter:
       x: 4
       y: 33
       width: 20
-      height: 21
-    spriteID: ffde13c7d28406c4e97c70cd0b50fdfc
+      height: 20
+    spriteID: 3b80b2a5847af1b44b5c5ae335a35495
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -181,69 +161,9 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 4, y: 33}
-  - name: Ben 10 Ataque en aire_Frame_3
+  - name: FlowerBoy corriendo Ataque_Frame_2
     originalName: 
-    pivot: {x: 0.4, y: -0.52380955}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 62
-      width: 20
-      height: 21
-    spriteID: baa19732699234d43924134a449c98c9
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 62}
-  - name: Ben 10 Ataque en aire_Frame_4
-    originalName: 
-    pivot: {x: 0.5, y: -0.52380955}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 32
-      y: 91
-      width: 16
-      height: 21
-    spriteID: a4f806a712f0fdc43b8daae5c9853f55
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 32, y: 91}
-  - name: Ben 10 Ataque en aire_Frame_5
-    originalName: 
-    pivot: {x: 0.4, y: -0.52380955}
-    alignment: 9
-    border: {x: 0, y: 0, z: 0, w: 0}
-    rect:
-      serializedVersion: 2
-      x: 4
-      y: 91
-      width: 20
-      height: 21
-    spriteID: 01e90e38a6154d94f82423f81367d386
-    spriteBone: []
-    spriteOutline: []
-    vertices: []
-    spritePhysicsOutline: []
-    indices: 
-    edges: []
-    tessellationDetail: 0
-    uvTransform: {x: 4, y: 91}
-  - name: Ben 10 Ataque en aire_Frame_6
-    originalName: 
-    pivot: {x: 0.4, y: -0.52380955}
+    pivot: {x: 0.35, y: -0.47619048}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -252,7 +172,7 @@ ScriptedImporter:
       y: 4
       width: 20
       height: 21
-    spriteID: 29494d1f60665d74ab2f20b4d3b95570
+    spriteID: 7f44ae523b0015541bd1d287dc76e7ce
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -261,9 +181,9 @@ ScriptedImporter:
     edges: []
     tessellationDetail: 0
     uvTransform: {x: 32, y: 4}
-  - name: Ben 10 Ataque en aire_Frame_7
+  - name: FlowerBoy corriendo Ataque_Frame_3
     originalName: 
-    pivot: {x: 0.4, y: -0.52380955}
+    pivot: {x: 0.35, y: -0.5}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -271,8 +191,8 @@ ScriptedImporter:
       x: 32
       y: 33
       width: 20
-      height: 21
-    spriteID: d2879220f00f91e459dd9a17649f846b
+      height: 20
+    spriteID: ad218da1e24aa7042b42c6c6e1ca9b5b
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -284,76 +204,44 @@ ScriptedImporter:
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
-    guid: 1089942965
-    name: Ben 10 Ataque en aire
+    guid: -30811803
+    name: FlowerBoy corriendo Ataque
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: Ben 10 Ataque en aire_Frame_0
+    - name: FlowerBoy corriendo Ataque_Frame_0
       frameIndex: 0
       cellRect:
         x: 8
-        y: 11
-        width: 16
+        y: 10
+        width: 20
         height: 21
-      spriteId: b023106c9088b7c4db125ea8740ae961
-    - name: Ben 10 Ataque en aire_Frame_1
+      spriteId: 4cc12a958e754db4bbcd1d2a292f4418
+    - name: FlowerBoy corriendo Ataque_Frame_1
       frameIndex: 1
       cellRect:
-        x: 8
-        y: 11
+        x: 9
+        y: 10
         width: 20
-        height: 21
-      spriteId: dabe90e917159e24babb4330f2d701d3
-    - name: Ben 10 Ataque en aire_Frame_2
+        height: 20
+      spriteId: 3b80b2a5847af1b44b5c5ae335a35495
+    - name: FlowerBoy corriendo Ataque_Frame_2
       frameIndex: 2
       cellRect:
-        x: 8
-        y: 11
+        x: 9
+        y: 10
         width: 20
         height: 21
-      spriteId: ffde13c7d28406c4e97c70cd0b50fdfc
-    - name: Ben 10 Ataque en aire_Frame_3
+      spriteId: 7f44ae523b0015541bd1d287dc76e7ce
+    - name: FlowerBoy corriendo Ataque_Frame_3
       frameIndex: 3
       cellRect:
-        x: 8
-        y: 11
+        x: 9
+        y: 10
         width: 20
-        height: 21
-      spriteId: baa19732699234d43924134a449c98c9
-    - name: Ben 10 Ataque en aire_Frame_4
-      frameIndex: 4
-      cellRect:
-        x: 8
-        y: 11
-        width: 16
-        height: 21
-      spriteId: a4f806a712f0fdc43b8daae5c9853f55
-    - name: Ben 10 Ataque en aire_Frame_5
-      frameIndex: 5
-      cellRect:
-        x: 8
-        y: 11
-        width: 20
-        height: 21
-      spriteId: 01e90e38a6154d94f82423f81367d386
-    - name: Ben 10 Ataque en aire_Frame_6
-      frameIndex: 6
-      cellRect:
-        x: 8
-        y: 11
-        width: 20
-        height: 21
-      spriteId: 29494d1f60665d74ab2f20b4d3b95570
-    - name: Ben 10 Ataque en aire_Frame_7
-      frameIndex: 7
-      cellRect:
-        x: 8
-        y: 11
-        width: 20
-        height: 21
-      spriteId: d2879220f00f91e459dd9a17649f846b
+        height: 20
+      spriteId: ad218da1e24aa7042b42c6c6e1ca9b5b
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -370,18 +258,6 @@ ScriptedImporter:
     allowsAlphaSplitting: 0
     androidETC2FallbackOverride: 0
   - name: Standalone
-    overridden: 0
-    ignorePlatformSupport: 0
-    maxTextureSize: 2048
-    resizeAlgorithm: 0
-    textureFormat: -1
-    textureCompression: 0
-    compressionQuality: 50
-    forceMaximumCompressionQuality_BC6H_BC7: 0
-    crunchedCompression: 0
-    allowsAlphaSplitting: 0
-    androidETC2FallbackOverride: 0
-  - name: WebGL
     overridden: 0
     ignorePlatformSupport: 0
     maxTextureSize: 2048
