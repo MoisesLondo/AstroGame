@@ -123,7 +123,7 @@ ScriptedImporter:
   animatedSpriteImportData:
   - name: Astronauta Parado_Frame_0
     originalName: 
-    pivot: {x: 0.6, y: -0.6111111}
+    pivot: {x: 0.6, y: -0.6666667}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
@@ -143,15 +143,15 @@ ScriptedImporter:
     uvTransform: {x: 4, y: 4}
   - name: Astronauta Parado_Frame_1
     originalName: 
-    pivot: {x: 0.6, y: -0.6111111}
+    pivot: {x: 0.6, y: -0.7058824}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 27
-      y: 4
+      x: 4
+      y: 30
       width: 15
-      height: 18
+      height: 17
     spriteID: 8c847616715ce1848838cdb5cd342f72
     spriteBone: []
     spriteOutline: []
@@ -160,18 +160,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 27, y: 4}
+    uvTransform: {x: 4, y: 30}
   - name: Astronauta Parado_Frame_2
     originalName: 
-    pivot: {x: 0.6, y: -0.64705884}
+    pivot: {x: 0.6, y: -0.6666667}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
       x: 27
-      y: 30
+      y: 4
       width: 15
-      height: 17
+      height: 18
     spriteID: 19cfe4d8585171c4bbed0d579f60296b
     spriteBone: []
     spriteOutline: []
@@ -180,18 +180,18 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 27, y: 30}
+    uvTransform: {x: 27, y: 4}
   - name: Astronauta Parado_Frame_3
     originalName: 
-    pivot: {x: 0.6, y: -0.6111111}
+    pivot: {x: 0.6, y: -0.7058824}
     alignment: 9
     border: {x: 0, y: 0, z: 0, w: 0}
     rect:
       serializedVersion: 2
-      x: 4
+      x: 27
       y: 30
       width: 15
-      height: 18
+      height: 17
     spriteID: 0636e9109148d9e4f94b56b6edb170c4
     spriteBone: []
     spriteOutline: []
@@ -200,7 +200,7 @@ ScriptedImporter:
     indices: 
     edges: []
     tessellationDetail: 0
-    uvTransform: {x: 4, y: 30}
+    uvTransform: {x: 27, y: 30}
   spriteSheetImportData: []
   asepriteLayers:
   - layerIndex: 0
@@ -214,7 +214,7 @@ ScriptedImporter:
       frameIndex: 0
       cellRect:
         x: 7
-        y: 11
+        y: 12
         width: 15
         height: 18
       spriteId: dfeddd07157e9c846a6b0a81891e5182
@@ -222,25 +222,25 @@ ScriptedImporter:
       frameIndex: 1
       cellRect:
         x: 7
-        y: 11
+        y: 12
         width: 15
-        height: 18
+        height: 17
       spriteId: 8c847616715ce1848838cdb5cd342f72
     - name: Astronauta Parado_Frame_2
       frameIndex: 2
       cellRect:
         x: 7
-        y: 11
+        y: 12
         width: 15
-        height: 17
+        height: 18
       spriteId: 19cfe4d8585171c4bbed0d579f60296b
     - name: Astronauta Parado_Frame_3
       frameIndex: 3
       cellRect:
         x: 7
-        y: 11
+        y: 12
         width: 15
-        height: 18
+        height: 17
       spriteId: 0636e9109148d9e4f94b56b6edb170c4
     linkedCells: []
     parentIndex: -1

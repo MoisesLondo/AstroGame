@@ -66,25 +66,32 @@
     <Compile Include="Assets\Scripts\ControlPJ.cs" />
     <Compile Include="Assets\Bala.cs" />
     <Compile Include="Assets\Patrullaje.cs" />
+    <Compile Include="Assets\JefeCaminarBehaviour.cs" />
     <Compile Include="Assets\Enemigo.cs" />
     <Compile Include="Assets\Scripts\MovimientoPlataforma.cs" />
     <Compile Include="Assets\Scripts\iDaño.cs" />
+    <Compile Include="Assets\BarraDeVida.cs" />
     <Compile Include="Assets\Scripts\combate.cs" />
+    <Compile Include="Assets\JefeHabilidadBehaviour.cs" />
+    <Compile Include="Assets\jefe.cs" />
     <Compile Include="Assets\Combate.cs" />
     <Compile Include="Assets\SlimeDaño.cs" />
     <Compile Include="Assets\VidaPJ.cs" />
     <Compile Include="Assets\DisparoJugador.cs" />
+    <Compile Include="Assets\HabilidadJefe.cs" />
     <Compile Include="Assets\Murcielago.cs" />
     <Compile Include="Assets\PatrullarAereo.cs" />
     <Compile Include="Assets\TiempoVida.cs" />
+    <Compile Include="Assets\JefeIdleBehaviour.cs" />
     <Compile Include="Assets\Compañero.cs" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Assets\message.txt" />
+    <None Include="Assets\Bringer Of Death\License.txt" />
     <None Include="Assets\Tilesets\Free Park Zone Tileset\license.txt" />
     <None Include="Assets\Tilesets\Free Park Zone Tileset\Font.txt" />
     <None Include="Assets\Tilesets\Sci-Fi\Sci-Fi\Contact.txt" />
     <None Include="Assets\Tilesets\Sci-Fi\Sci-Fi\readme.txt" />
+    <None Include="Assets\Bringer Of Death\Contact.txt" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="UnityEngine">

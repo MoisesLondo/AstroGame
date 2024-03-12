@@ -25,7 +25,10 @@ public class ControlPJ : MonoBehaviour
     [SerializeField] private bool enSuelo;
 
     private Animator animator;
-
+    
+    // Intento de Algo
+    private enum MovementState {idle, running , jumping, falling}
+    private MovementState state = MovementState.idle;
     private bool salto = false;
     private void Start()
     {
@@ -50,7 +53,7 @@ public class ControlPJ : MonoBehaviour
         else{
             animator.SetBool("isRunning", false);
         }
-
+        UpdateAnimationState();
     }
 
     private void FixedUpdate()
@@ -108,5 +111,28 @@ public class ControlPJ : MonoBehaviour
 
         Gizmos.color = Color.yellow;
         Gizmos.DrawWireCube(controladorSuelo.position,dimCaja);
+    }
+
+    private void UpdateAnimationState()
+    {
+        MovementState state;
+
+        if (movHorizontal > 0f || movHorizontal < 0f)
+        {
+            state = MovementState.running;
+        }
+        else
+        {
+            state = MovementState.idle;
+        }
+        if(rb2D.velocity.y > .1f)
+        {
+            state = MovementState.jumping;
+        }
+        else if(rb2D.velocity.y < -.1f)
+        {
+            state = MovementState.falling;
+        }
+        animator.SetInteger("State", (int)state);
     }
 }
