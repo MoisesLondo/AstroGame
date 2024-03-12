@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Enemigo
   - "Compa\xF1ero"
+  - Jefe
   layers:
   - Default
   - TransparentFX
