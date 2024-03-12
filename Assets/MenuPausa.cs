@@ -26,7 +26,7 @@ public class MenuPausa : MonoBehaviour
 
     }
 
-    void Reanudar(){
+    public void Reanudar(){
 
         menuPausaUI.SetActive(false);
         Time.timeScale = 1f;
@@ -38,5 +38,11 @@ public class MenuPausa : MonoBehaviour
         menuPausaUI.SetActive(true);
         Time.timeScale = 0f;
         juegoPausado = true;
+    }
+    
+    public void SalirJuego(){
+
+        Debug.Log("Quitting game...");
+        Application.Quit();
     }
 }
