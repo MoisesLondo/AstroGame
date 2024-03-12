@@ -206,7 +206,7 @@ PrefabInstance:
     - target: {fileID: 1160356261127867848, guid: b6e74febf0da65e4fb5780cbaa877b56, type: 3}
       propertyPath: m_Controller
       value: 
-      objectReference: {fileID: 9100000, guid: af59646252d3272459a47069f96a2ad1, type: 2}
+      objectReference: {fileID: 9100000, guid: 61c4bd72c70467c42abfd32bdc8aa65b, type: 2}
     - target: {fileID: 3626916397498700004, guid: b6e74febf0da65e4fb5780cbaa877b56, type: 3}
       propertyPath: m_Size.y
       value: 0.53125
@@ -279,6 +279,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7878350319992209165, guid: b6e74febf0da65e4fb5780cbaa877b56, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1847041364}
+    - targetCorrespondingSourceObject: {fileID: 7878350319992209165, guid: b6e74febf0da65e4fb5780cbaa877b56, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1901080753}
     m_AddedComponents:
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: b6e74febf0da65e4fb5780cbaa877b56, type: 3}
       insertIndex: -1
@@ -430,9 +433,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 413002454652381758, guid: 70ec9befc1a3c9442942ce7c8ce3e92f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1396415660042307623, guid: 70ec9befc1a3c9442942ce7c8ce3e92f, type: 3}
       propertyPath: m_Name
       value: MurcielagoObjeto (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396415660042307623, guid: 70ec9befc1a3c9442942ce7c8ce3e92f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206389258480393126, guid: 70ec9befc1a3c9442942ce7c8ce3e92f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5664808684707655714, guid: 70ec9befc1a3c9442942ce7c8ce3e92f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8183280826006209612, guid: 70ec9befc1a3c9442942ce7c8ce3e92f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -473,6 +492,10 @@ PrefabInstance:
     - target: {fileID: 8183280826006209612, guid: 70ec9befc1a3c9442942ce7c8ce3e92f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8491582574506870595, guid: 70ec9befc1a3c9442942ce7c8ce3e92f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -873,7 +896,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 496927174}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: controladorSuelo (1)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1007,7 +1030,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 686936913}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: controladorSuelo (2)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1043,7 +1066,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: -2253911629886400664, guid: 1f9674ad4356f984596447a9aab2f348, type: 3}
       propertyPath: m_Layer
-      value: 6
+      value: 8
       objectReference: {fileID: 0}
     - target: {fileID: -2253911629886400664, guid: 1f9674ad4356f984596447a9aab2f348, type: 3}
       propertyPath: m_TagString
@@ -1063,11 +1086,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 1f9674ad4356f984596447a9aab2f348, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -5.92
+      value: -8.9
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 1f9674ad4356f984596447a9aab2f348, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 3.6
+      value: 4.24
       objectReference: {fileID: 0}
     - target: {fileID: 7878350319992209165, guid: 1f9674ad4356f984596447a9aab2f348, type: 3}
       propertyPath: m_LocalPosition.z
@@ -1114,6 +1137,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 1f9674ad4356f984596447a9aab2f348, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1239423525}
+    - targetCorrespondingSourceObject: {fileID: -2253911629886400664, guid: 1f9674ad4356f984596447a9aab2f348, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1239423529}
   m_SourcePrefab: {fileID: -8435245712485981826, guid: 1f9674ad4356f984596447a9aab2f348, type: 3}
 --- !u!1 &744595969
 GameObject:
@@ -1253,9 +1279,25 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 413002454652381758, guid: 70ec9befc1a3c9442942ce7c8ce3e92f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
     - target: {fileID: 1396415660042307623, guid: 70ec9befc1a3c9442942ce7c8ce3e92f, type: 3}
       propertyPath: m_Name
       value: MurcielagoObjeto
+      objectReference: {fileID: 0}
+    - target: {fileID: 1396415660042307623, guid: 70ec9befc1a3c9442942ce7c8ce3e92f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4206389258480393126, guid: 70ec9befc1a3c9442942ce7c8ce3e92f, type: 3}
+      propertyPath: m_Layer
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 5664808684707655714, guid: 70ec9befc1a3c9442942ce7c8ce3e92f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     - target: {fileID: 8183280826006209612, guid: 70ec9befc1a3c9442942ce7c8ce3e92f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -1296,6 +1338,10 @@ PrefabInstance:
     - target: {fileID: 8183280826006209612, guid: 70ec9befc1a3c9442942ce7c8ce3e92f, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8491582574506870595, guid: 70ec9befc1a3c9442942ce7c8ce3e92f, type: 3}
+      propertyPath: m_Layer
+      value: 7
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -1623,9 +1669,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 5ea609e09ae314d4c9db3f592cc581af, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1646973792}
-  velocidad: 3
+  Object: {fileID: 1901080752}
+  velocidad: 5
   "compa\xF1eroYPosition": 0
+  detectionDistance: 10
+  hasTargetedEnemy: 0
+  detectionIsActived: 1
 --- !u!61 &1239423524
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1698,6 +1747,41 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 4
+--- !u!70 &1239423529
+CapsuleCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1239423519}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0.46874958}
+  m_Size: {x: 4, y: 1}
+  m_Direction: 0
 --- !u!1 &1244406853
 GameObject:
   m_ObjectHideFlags: 0
@@ -1707,7 +1791,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1244406854}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: controladorSuelo
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1861,7 +1945,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1401573773}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: controladorSuelo
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -1993,7 +2077,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1452987952}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: controladorSuelo (1)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
@@ -2872,6 +2956,37 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1901080752
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1901080753}
+  m_Layer: 6
+  m_Name: ControlCompa
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1901080753
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1901080752}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -0.425, y: 0.677, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1646973801}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1926648140
 GameObject:
   m_ObjectHideFlags: 0
@@ -2881,7 +2996,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1926648141}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: controladorSuelo (2)
   m_TagString: Untagged
   m_Icon: {fileID: 7174288486110832750, guid: 0000000000000000d000000000000000, type: 0}
