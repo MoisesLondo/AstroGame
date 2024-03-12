@@ -10,10 +10,13 @@ public class VidaPJ : MonoBehaviour
     [SerializeField] private float tiempoPerdidaControl;
     private Animator animator;
     public event EventHandler MuerteJugador;
-
+    float xInicial,yInicial;
     private Rigidbody2D rb2D;
 
     private void Start(){
+
+        xInicial = transform.position.x;
+        yInicial = transform.position.y;
 
         controlPJ = GetComponent<ControlPJ>();
         animator = GetComponent<Animator>();
@@ -62,6 +65,11 @@ public class VidaPJ : MonoBehaviour
 
     private void Muerte(){
         animator.SetTrigger("Muerte");
+    }
+
+    public void Recolocar(){
+
+        transform.position = new Vector3(xInicial,yInicial,0);
     }
 
 }

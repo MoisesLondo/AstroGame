@@ -87,6 +87,7 @@
     <Compile Include="Assets\TiempoVida.cs" />
     <Compile Include="Assets\JefeIdleBehaviour.cs" />
     <Compile Include="Assets\Compañero.cs" />
+    <Compile Include="Assets\CaidaPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
