@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class MenuPausa : MonoBehaviour
 {
@@ -38,6 +39,11 @@ public class MenuPausa : MonoBehaviour
         menuPausaUI.SetActive(true);
         Time.timeScale = 0f;
         juegoPausado = true;
+    }
+
+    public void MenuPrincipal(){
+
+        Debug.Log("Menu");
     }
     
     public void SalirJuego(){

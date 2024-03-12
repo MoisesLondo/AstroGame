@@ -23,6 +23,8 @@ public class VidaPJ : MonoBehaviour
         
         vida -= daño;
         if(vida <= 0){
+            rb2D.constraints = RigidbodyConstraints2D.FreezeAll;
+            MuerteJugador?.Invoke(this, EventArgs.Empty);
             Muerte();
             Physics2D.IgnoreLayerCollision(6,7,true);
         }
@@ -38,6 +40,7 @@ public class VidaPJ : MonoBehaviour
         controlPJ.Rebote(posicion);}
         else{
             rb2D.constraints = RigidbodyConstraints2D.FreezeAll;
+            MuerteJugador?.Invoke(this, EventArgs.Empty);
             Muerte();
             Physics2D.IgnoreLayerCollision(6,7,true);
         }
