@@ -29,7 +29,7 @@ public class VidaPJ : MonoBehaviour
             rb2D.constraints = RigidbodyConstraints2D.FreezeAll;
             MuerteJugador?.Invoke(this, EventArgs.Empty);
             Muerte();
-            Physics2D.IgnoreLayerCollision(6,7,true);
+            
         }
     }
 
@@ -45,7 +45,6 @@ public class VidaPJ : MonoBehaviour
             rb2D.constraints = RigidbodyConstraints2D.FreezeAll;
             MuerteJugador?.Invoke(this, EventArgs.Empty);
             Muerte();
-            Physics2D.IgnoreLayerCollision(6,7,true);
         }
     }
     public void Destroy(){
@@ -65,6 +64,7 @@ public class VidaPJ : MonoBehaviour
 
     private void Muerte(){
         animator.SetTrigger("Muerte");
+        Recolocar();
     }
 
     public void Recolocar(){

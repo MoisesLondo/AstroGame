@@ -8,6 +8,7 @@ TagManager:
   - "Compa\xF1ero"
   - Jefe
   - Suelo
+  - Player 2
   layers:
   - Default
   - TransparentFX

@@ -86,6 +86,7 @@
     <Compile Include="Assets\PatrullarAereo.cs" />
     <Compile Include="Assets\TiempoVida.cs" />
     <Compile Include="Assets\JefeIdleBehaviour.cs" />
+    <Compile Include="Assets\dosObjetos.cs" />
     <Compile Include="Assets\Compañero.cs" />
     <Compile Include="Assets\CaidaPlayer.cs" />
   </ItemGroup>
@@ -100,6 +101,7 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+    <None Include="Assets\message.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\Tilesets\Free Park Zone Tileset\Font.txt" />

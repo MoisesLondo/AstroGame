@@ -20,7 +20,7 @@ public class HabilidadJefe : MonoBehaviour
 
         foreach(Collider2D colision in objetos){
 
-            if(colision.CompareTag("Player")){
+            if(colision.CompareTag("Player") || colision.CompareTag("Player 2")){
 
                 colision.GetComponent<VidaPJ>().TomarDaño(daño);
             }

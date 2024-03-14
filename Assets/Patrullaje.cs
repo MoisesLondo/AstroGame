@@ -10,25 +10,18 @@ public class Patrullaje : MonoBehaviour
     [SerializeField] float distancia;
     [SerializeField] bool derecha;
     private Rigidbody2D rb;
-    private int groundLayer; // Layer index for "Ground"
-
-    // Start is called before the first frame update
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-        groundLayer = LayerMask.NameToLayer("Ground"); // Get ground layer index
     }
 
     private void FixedUpdate()
     {
-        RaycastHit2D infoSuelo = Physics2D.Raycast(controladorSuelo.position, Vector2.down, distancia, groundLayer); // Specify ground layer
+        RaycastHit2D infoSuelo = Physics2D.Raycast(controladorSuelo.position, Vector2.down, distancia);
+        
+        rb.velocity = new Vector2(velocidad, rb.velocity.y);
 
-        if (infoSuelo.collider != null) // Check if there's a collision
-        {
-            // Do nothing, enemy is on the ground (as defined by "Ground" layer)
-        }
-        else
-        {
+        if(infoSuelo == false){
             Girar();
         }
 

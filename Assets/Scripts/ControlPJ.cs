@@ -24,6 +24,11 @@ public class ControlPJ : MonoBehaviour
 
     [SerializeField] private bool enSuelo;
 
+    [SerializeField] private KeyCode der;
+    [SerializeField] private KeyCode izq;
+    [SerializeField] private KeyCode arriba;
+
+
     private Animator animator;
     
     // Intento de Algo
@@ -38,9 +43,19 @@ public class ControlPJ : MonoBehaviour
 
     private void Update()
     {
-        movHorizontal = Input.GetAxisRaw("Horizontal") * velocidadMov;
+        float horizontal = 0f; 
+        
+        if (Input.GetKey(der))
+        {
+            horizontal = 1f;
+        }
+        else if (Input.GetKey(izq))
+        {
+            horizontal = -1f;
+        }
+        movHorizontal = horizontal * velocidadMov;
 
-        if(Input.GetButtonDown("Jump")){
+        if(Input.GetKey(arriba)){
             
             salto = true;
         }
