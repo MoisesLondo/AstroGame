@@ -78,6 +78,7 @@
     <Compile Include="Assets\Combate.cs" />
     <Compile Include="Assets\SlimeDaño.cs" />
     <Compile Include="Assets\VidaPJ.cs" />
+    <Compile Include="Assets\Scripts\FondoMov.cs" />
     <Compile Include="Assets\DisparoJugador.cs" />
     <Compile Include="Assets\HabilidadJefe.cs" />
     <Compile Include="Assets\MenuPausa.cs" />
@@ -87,6 +88,7 @@
     <Compile Include="Assets\TiempoVida.cs" />
     <Compile Include="Assets\JefeIdleBehaviour.cs" />
     <Compile Include="Assets\dosObjetos.cs" />
+    <Compile Include="Assets\moverFondo.cs" />
     <Compile Include="Assets\Compañero.cs" />
     <Compile Include="Assets\CaidaPlayer.cs" />
   </ItemGroup>
