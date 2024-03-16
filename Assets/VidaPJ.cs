@@ -10,10 +10,13 @@ public class VidaPJ : MonoBehaviour
     [SerializeField] private float tiempoPerdidaControl;
     private Animator animator;
     public event EventHandler MuerteJugador;
-
+    float xInicial,yInicial;
     private Rigidbody2D rb2D;
 
     private void Start(){
+
+        xInicial = transform.position.x;
+        yInicial = transform.position.y;
 
         controlPJ = GetComponent<ControlPJ>();
         animator = GetComponent<Animator>();
@@ -23,8 +26,10 @@ public class VidaPJ : MonoBehaviour
         
         vida -= daño;
         if(vida <= 0){
+            rb2D.constraints = RigidbodyConstraints2D.FreezeAll;
+            MuerteJugador?.Invoke(this, EventArgs.Empty);
             Muerte();
-            Physics2D.IgnoreLayerCollision(6,7,true);
+            
         }
     }
 
@@ -38,8 +43,8 @@ public class VidaPJ : MonoBehaviour
         controlPJ.Rebote(posicion);}
         else{
             rb2D.constraints = RigidbodyConstraints2D.FreezeAll;
+            MuerteJugador?.Invoke(this, EventArgs.Empty);
             Muerte();
-            Physics2D.IgnoreLayerCollision(6,7,true);
         }
     }
     public void Destroy(){
@@ -59,6 +64,12 @@ public class VidaPJ : MonoBehaviour
 
     private void Muerte(){
         animator.SetTrigger("Muerte");
+        Recolocar();
+    }
+
+    public void Recolocar(){
+
+        transform.position = new Vector3(xInicial,yInicial,0);
     }
 
 }

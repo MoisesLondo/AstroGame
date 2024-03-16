@@ -10,12 +10,11 @@ public class Patrullaje : MonoBehaviour
     [SerializeField] float distancia;
     [SerializeField] bool derecha;
     private Rigidbody2D rb;
-
-    // Start is called before the first frame update
     private void Start()
     {
         rb = GetComponent<Rigidbody2D>();
     }
+
     private void FixedUpdate()
     {
         RaycastHit2D infoSuelo = Physics2D.Raycast(controladorSuelo.position, Vector2.down, distancia);
@@ -25,16 +24,20 @@ public class Patrullaje : MonoBehaviour
         if(infoSuelo == false){
             Girar();
         }
-    }
-    private void Girar(){
 
+        rb.velocity = new Vector2(velocidad, rb.velocity.y);
+    }
+
+    private void Girar()
+    {
         derecha = !derecha;
         transform.eulerAngles = new Vector3(0, transform.eulerAngles.y + 180, 0);
         velocidad *= -1;
     }
+
     // Update is called once per frame
     void Update()
     {
-        
+        // Not used in this case, but can be used for other updates
     }
 }

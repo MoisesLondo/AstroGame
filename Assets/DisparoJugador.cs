@@ -7,12 +7,13 @@ public class DisparoJugador : MonoBehaviour
     [SerializeField] private Transform controladorDisparo;
     [SerializeField] private GameObject bala;
     [SerializeField] private float tiempoEntreDisparos;
+    [SerializeField] private KeyCode disparar;
 
     private float tiempoSiguienteDisparo;
 
 private void Update()
 {
-    if (Input.GetButtonDown("Fire2") && Time.time >= tiempoSiguienteDisparo)
+    if (Input.GetKey(disparar) && Time.time >= tiempoSiguienteDisparo)
     {
         Disparar();
         tiempoSiguienteDisparo = Time.time + tiempoEntreDisparos;
