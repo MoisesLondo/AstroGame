@@ -56,7 +56,6 @@ public class ControlPJ : MonoBehaviour
         movHorizontal = horizontal * velocidadMov;
 
         if(Input.GetKey(arriba)){
-            
             salto = true;
         }
 
@@ -140,7 +139,7 @@ public class ControlPJ : MonoBehaviour
         {
             state = MovementState.idle;
         }
-        if(rb2D.velocity.y > .1f)
+        if(rb2D.velocity.y > 1f)
         {
             state = MovementState.jumping;
         }
