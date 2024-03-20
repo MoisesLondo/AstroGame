@@ -59,7 +59,6 @@
     <UnityVersion>2022.3.20f1</UnityVersion>
   </PropertyGroup>
   <ItemGroup>
-    <Analyzer Include="C:\Users\luisd\.vscode\extensions\visualstudiotoolsforunity.vstuc-1.0.0\Analyzers\Microsoft.Unity.Analyzers.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.SourceGenerators.dll" />
     <Analyzer Include="C:\Program Files\Unity\Hub\Editor\2022.3.20f1\Editor\Data\Tools\Unity.SourceGenerators\Unity.Properties.SourceGenerator.dll" />
   </ItemGroup>
@@ -67,6 +66,7 @@
     <Compile Include="Assets\Scripts\ControlPJ.cs" />
     <Compile Include="Assets\ShowText.cs" />
     <Compile Include="Assets\Bala.cs" />
+    <Compile Include="Assets\final.cs" />
     <Compile Include="Assets\Patrullaje.cs" />
     <Compile Include="Assets\MenuMuerte.cs" />
     <Compile Include="Assets\JefeCaminarBehaviour.cs" />
@@ -84,6 +84,7 @@
     <Compile Include="Assets\DisparoJugador.cs" />
     <Compile Include="Assets\HabilidadJefe.cs" />
     <Compile Include="Assets\MenuPausa.cs" />
+    <Compile Include="Assets\Trans.cs" />
     <Compile Include="Assets\Murcielago.cs" />
     <Compile Include="Assets\MenuInicial.cs" />
     <Compile Include="Assets\PatrullarAereo.cs" />
