@@ -88,6 +88,7 @@
     <Compile Include="Assets\Murcielago.cs" />
     <Compile Include="Assets\MenuInicial.cs" />
     <Compile Include="Assets\PatrullarAereo.cs" />
+    <Compile Include="Assets\finalinicio.cs" />
     <Compile Include="Assets\TiempoVida.cs" />
     <Compile Include="Assets\JefeIdleBehaviour.cs" />
     <Compile Include="Assets\dosObjetos.cs" />

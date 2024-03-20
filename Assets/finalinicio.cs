@@ -1,13 +1,12 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
-public class CaidaPlayer : MonoBehaviour
+public class finalinicio : MonoBehaviour
 {
-
-    void Start()
+   void Start()
     {
-        
     }
 
     // Update is called once per frame
@@ -16,7 +15,11 @@ public class CaidaPlayer : MonoBehaviour
         
     }
     private void OnTriggerEnter2D(Collider2D other){
-        
-        FindObjectOfType<VidaPJ>().SendMessage( "Recolocar");
+        if (other.gameObject.CompareTag("Player")){
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 3 );
     }
+
+    
+
+}
 }

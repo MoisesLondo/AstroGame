@@ -21,7 +21,6 @@ public class ShowText : MonoBehaviour
 
     void Start()
     {
-        TextSalto2.enabled = false;
         imageSalto2.enabled = false;
     }
 
@@ -39,6 +38,7 @@ public class ShowText : MonoBehaviour
         text3.enabled = false;
         text4.enabled = false;
         image.enabled = false;
+        TextSalto2.enabled = false;
 
     }
 }
