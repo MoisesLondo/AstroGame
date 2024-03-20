@@ -64,7 +64,9 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\ControlPJ.cs" />
+    <Compile Include="Assets\ShowText.cs" />
     <Compile Include="Assets\Bala.cs" />
+    <Compile Include="Assets\final.cs" />
     <Compile Include="Assets\Patrullaje.cs" />
     <Compile Include="Assets\MenuMuerte.cs" />
     <Compile Include="Assets\JefeCaminarBehaviour.cs" />
@@ -82,9 +84,11 @@
     <Compile Include="Assets\DisparoJugador.cs" />
     <Compile Include="Assets\HabilidadJefe.cs" />
     <Compile Include="Assets\MenuPausa.cs" />
+    <Compile Include="Assets\Trans.cs" />
     <Compile Include="Assets\Murcielago.cs" />
     <Compile Include="Assets\MenuInicial.cs" />
     <Compile Include="Assets\PatrullarAereo.cs" />
+    <Compile Include="Assets\finalinicio.cs" />
     <Compile Include="Assets\TiempoVida.cs" />
     <Compile Include="Assets\JefeIdleBehaviour.cs" />
     <Compile Include="Assets\dosObjetos.cs" />
@@ -103,7 +107,6 @@
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-    <None Include="Assets\message.txt" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
     <None Include="Assets\Tilesets\Free Park Zone Tileset\Font.txt" />
