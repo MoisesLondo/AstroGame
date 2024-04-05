@@ -81,7 +81,6 @@
     <Compile Include="Assets\SlimeDaño.cs" />
     <Compile Include="Assets\VidaPJ.cs" />
     <Compile Include="Assets\Scripts\FondoMov.cs" />
-    <Compile Include="Assets\DisparoJugador.cs" />
     <Compile Include="Assets\HabilidadJefe.cs" />
     <Compile Include="Assets\MenuPausa.cs" />
     <Compile Include="Assets\Trans.cs" />

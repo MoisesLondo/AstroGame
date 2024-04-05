@@ -4106,6 +4106,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2897472873779801938, guid: 973203930647c3a459dc059d13b98323, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: SalirJuego
+      objectReference: {fileID: 0}
     - target: {fileID: 4271190390382240258, guid: 973203930647c3a459dc059d13b98323, type: 3}
       propertyPath: m_Name
       value: Canvas (1)
@@ -4823,7 +4827,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1766013125547188438, guid: 8888f551e6ef9cc4289241af6bfd0e70, type: 3}
       propertyPath: fuerzaSalto
-      value: 150
+      value: 200
       objectReference: {fileID: 0}
     - target: {fileID: 1766013125547188438, guid: 8888f551e6ef9cc4289241af6bfd0e70, type: 3}
       propertyPath: suavizadoMov
@@ -4836,6 +4840,10 @@ PrefabInstance:
     - target: {fileID: 1957058423680627111, guid: 8888f551e6ef9cc4289241af6bfd0e70, type: 3}
       propertyPath: vida
       value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 2150703458037207080, guid: 8888f551e6ef9cc4289241af6bfd0e70, type: 3}
+      propertyPath: m_Enabled
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2673326684173750532, guid: 8888f551e6ef9cc4289241af6bfd0e70, type: 3}
       propertyPath: "da\xF1oGolpe"

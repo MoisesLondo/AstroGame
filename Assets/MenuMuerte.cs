@@ -30,9 +30,9 @@ public class MenuMuerte : MonoBehaviour
 
         SceneManager.LoadScene(nombre);
     }
-    public void Salir(){
+    public void SalirJuego(){
 
-        UnityEditor.EditorApplication.isPlaying = false;
+        Debug.Log("Quitting game...");
         Application.Quit();
     }
     void Pausa(){
