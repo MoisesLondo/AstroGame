@@ -10,6 +10,7 @@ public class ControlPJ : MonoBehaviour
     [SerializeField] private float suavizadoMov;
     private Vector3 velocidad = Vector3.zero;
     private bool derecha = true;
+    private Vector2 input;
 
     public bool sePuedeMover = true;
     [SerializeField] private Vector2 velocidadRebote;
@@ -27,6 +28,10 @@ public class ControlPJ : MonoBehaviour
     [SerializeField] private KeyCode der;
     [SerializeField] private KeyCode izq;
     [SerializeField] private KeyCode arriba;
+    [SerializeField] private float velocidadEscalar;
+    private BoxCollider2D boxCollider2D;
+    private float gravedad;
+    private bool escalando;
 
 
     private Animator animator;
@@ -39,10 +44,13 @@ public class ControlPJ : MonoBehaviour
     {
         rb2D = GetComponent<Rigidbody2D>();
         animator = GetComponent<Animator>();
+        boxCollider2D = GetComponent<BoxCollider2D>();
+        gravedad = rb2D.gravityScale;
     }
 
     private void Update()
     {
+        input.y = Input.GetAxisRaw("Vertical");
         float horizontal = 0f; 
         
         if (Input.GetKey(der))
@@ -83,7 +91,7 @@ public class ControlPJ : MonoBehaviour
         }
 
 
-
+        Escalar();
         salto = false;
     }
 
@@ -114,6 +122,22 @@ public class ControlPJ : MonoBehaviour
         rb2D.velocity = new Vector2(-velocidadRebote.x * puntoGolpe.x, velocidadRebote.y);
 
 
+    }
+
+    private void Escalar(){
+
+        if((input.y != 0 || escalando) && (boxCollider2D.IsTouchingLayers(LayerMask.GetMask("Escaleras")))){
+            Vector2 velocidadSubida = new Vector2(rb2D.velocity.x, input.y * velocidadEscalar);
+            rb2D.velocity = velocidadSubida;
+            rb2D.gravityScale = 0;
+            escalando = true;
+        }else{
+            rb2D.gravityScale = gravedad;
+            escalando = false;
+        }
+        if(enSuelo){
+            escalando = false;
+        }
     }
     private void Girar()
     {
